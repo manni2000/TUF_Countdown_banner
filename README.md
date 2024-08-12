@@ -177,9 +177,10 @@ Make sure you have the following installed on your system:
 
 ### License
 
-### MIT License
+MIT License
 
-## Copyright (c) 2024 'Manish Kumar': **Don't used without permission**
+© 2024 by Manish Kumar: **Do not use without permission**
+
 
 ### Summary
 
