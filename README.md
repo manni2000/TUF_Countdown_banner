@@ -175,6 +175,8 @@ Make sure you have the following installed on your system:
 
 https://github.com/user-attachments/assets/0b4f59df-6fda-4fec-8955-d154ccc57e4d
 
+![image](https://github.com/user-attachments/assets/7dfb6143-7d7f-48eb-a915-6b7b5d9d7629)
+
 ### License
 
 MIT License
