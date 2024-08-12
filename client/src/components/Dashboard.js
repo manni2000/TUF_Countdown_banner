@@ -3,7 +3,7 @@ import { getBanner, updateBanner } from '../services/api';
 
 const Dashboard = ({ onBannerUpdate }) => {
   const [description, setDescription] = useState('');
-  const [timer, setTimer] = useState(60);
+  const [timer, setTimer] = useState(10);
   const [link, setLink] = useState('');
   const [isVisible, setIsVisible] = useState(true);
 
