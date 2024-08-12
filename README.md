@@ -1,5 +1,5 @@
 # takeUforward: Countdown banner
-*This is hiring assessment for Software Engineer in takeuforward 2024*
+*This is hiring assessment for Software Engineer in takeuforward.*
 
 Here’s a detailed analysis of the GitHub repository [TUF_Countdown_banner](https://github.com/manni2000/TUF_Countdown_banner), including the technologies used and the functionality provided.
 
