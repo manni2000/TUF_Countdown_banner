@@ -65,6 +65,7 @@ body {
   margin-bottom: 10px;
   font-weight: bold;
   color: #555;
+  width: 100%; /* Ensure label takes full width */
 }
 
 .dashboard form input[type="text"],
@@ -75,7 +76,8 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1em;
-  width: 100%;
+  width: 100%; /* Ensure inputs take full width of the container */
+  box-sizing: border-box; /* Include padding and border in the element's width and height */
 }
 
 .dashboard form input[type="checkbox"] {
@@ -92,6 +94,8 @@ body {
   cursor: pointer;
   font-size: 1.2em;
   transition: background-color 0.3s ease;
+  width: 100%; /* Ensure button takes full width */
+  box-sizing: border-box;
 }
 
 .dashboard form button:hover {
@@ -101,18 +105,47 @@ body {
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .banner, .dashboard {
-      padding: 15px;
+    padding: 15px;
+    max-width: 90%;
   }
 
   .dashboard h2 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 
   .dashboard form label {
-      font-size: 1em;
+    font-size: 1em;
   }
 
   .dashboard form button {
-      font-size: 1em;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  .dashboard {
+    padding: 20px;
+    font-size: 0.9em;
+  }
+
+  .dashboard h2 {
+    font-size: 1.4em;
+  }
+
+  .dashboard form input[type="text"],
+  .dashboard form input[type="number"],
+  .dashboard form input[type="url"] {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .dashboard form button {
+    font-size: 1em;
+    padding: 10px;
   }
 }
