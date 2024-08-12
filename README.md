@@ -147,9 +147,9 @@ Make sure you have the following installed on your system:
      DB_PASSWORD=your_mysql_password
      DB_NAME=tuf_countdown_banner
      ```
-
      Replace `your_mysql_username` and `your_mysql_password` with your actual MySQL credentials.
-
+     *This is Local setup, you make sure you use any free mysql database like 'phpmyadmin' etc.*
+      
 6. **Start the Backend Server:**
 
    Start the backend server by running:
