@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://tuf-countdown-banner-api.onrender.com/api';
 
 export const getBanner = async () => {
   const response = await axios.get(`${API_URL}/banner`);
