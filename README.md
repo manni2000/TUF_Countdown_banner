@@ -173,7 +173,7 @@ Make sure you have the following installed on your system:
 
 ### Preview
 
-https://github.com/user-attachments/assets/79826d9c-d311-451e-ad9d-2b02e41fad25
+https://github.com/user-attachments/assets/0b4f59df-6fda-4fec-8955-d154ccc57e4d
 
 ### License
 
