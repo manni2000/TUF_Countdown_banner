@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Banner Styles */
+.banner {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 100%;
+}
+
+.banner p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.banner a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner a:hover {
+  text-decoration: underline;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.dashboard h2 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  color: #333;
+  text-align: center;
+}
+
+.dashboard form {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.dashboard form input[type="text"],
+.dashboard form input[type="number"],
+.dashboard form input[type="url"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+}
+
+.dashboard form input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.dashboard form button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard form button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .banner, .dashboard {
+      padding: 15px;
+  }
+
+  .dashboard h2 {
+      font-size: 1.5em;
+  }
+
+  .dashboard form label {
+      font-size: 1em;
+  }
+
+  .dashboard form button {
+      font-size: 1em;
+  }
+}
