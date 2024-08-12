@@ -19,7 +19,7 @@ The **TUF Countdown Banner** project is a dynamic one-page website built using R
    - **MySQL:** A relational database management system used to store and manage the banner settings, including the description, timer, and link.
 
 3. **Database:**
-   - **MySQL Database:** The project uses MySQL to store banner-related information. The data includes the banner description, timer settings, and the link associated with the banner.
+   - **MySQL Database:** The project uses free mysql database 'phpmyadmin' to store table information. The data includes the banner description, timer settings, and the link associated with the banner.
 
 ### Functionality
 
